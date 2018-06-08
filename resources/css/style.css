@@ -1,0 +1,135 @@
+html{
+  font-family: "Helvetica", sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+  background-color: white;
+}
+
+body{""
+
+}
+
+.container{
+  max-width: 960px;
+  margin: auto;
+}
+
+header{
+  height:30rem;
+  padding-top: 1rem;
+  background-image: url("../glasses-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+nav{
+  display: flex;
+  width: 960px;
+  height: auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  background-color: cadetblue;
+  color: white;
+}
+
+nav img{
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: flex-end;
+  justify-content: space-around;
+}
+
+li{
+  display: inline;
+  color: white;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.motto{
+  display: inline-block;
+  padding: 1.5rem 5rem;
+  margin-top: 10rem;
+  margin-left: 35rem;
+  background-color: white;
+}
+
+.motto h1{
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.service{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 5rem;
+  height: 8rem;
+  margin: 3rem;
+  text-align: center;
+}
+
+.supporting{
+  display: flex;
+  justify-content: center;
+}
+
+.service img{
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.service img.paper-icon{
+  width: 3.5rem;
+
+.info{
+  width: 35%;
+  margin-right: 5%;
+  font-size: 4rem;
+}
+
+.info p{
+  padding: 1rem 0;
+}
+
+.title{
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  top-margin: 3rem;
+  background-color: cadetblue;
+}
+
+footer{
+  display: flex;
+  width: 960px;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  background-color: azure;
+  color: black;
+}
+
+footer img{
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
