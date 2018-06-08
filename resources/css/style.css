@@ -5,7 +5,7 @@ html{
   background-color: white;
 }
 
-body{""
+body{
 
 }
 
@@ -28,7 +28,6 @@ header{
 nav{
   display: flex;
   width: 960px;
-  height: auto;
   align-items: center;
   justify-content: space-between;
   padding: 1rem 0;
@@ -96,7 +95,7 @@ li{
 
 .service img.paper-icon{
   width: 3.5rem;
-
+}
 .info{
   width: 35%;
   margin-right: 5%;
@@ -104,6 +103,7 @@ li{
 }
 
 .info p{
+  font-size: 1rem;
   padding: 1rem 0;
 }
 
@@ -113,18 +113,17 @@ li{
   font-size: 1rem;
   color: white;
   padding: 0.5rem 1.25rem;
-  top-margin: 3rem;
+  margin-top: 3rem;
   background-color: cadetblue;
 }
 
 footer{
   display: flex;
   width: 960px;
-  height: 100px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 1rem 0;
-  background-color: azure;
+  background-color: orange;
   color: black;
 }
 
